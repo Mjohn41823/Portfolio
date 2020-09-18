@@ -1,0 +1,28 @@
+body{background-color: lightgray}/* Background color */
+h1{background-color:grey;/* Characteristics for first header */
+  font-family: "Times New Roman";
+  font-size: 50px;
+  height: 45px;
+  margin-top: 45px;
+  padding: 45px}
+h2{font-family: "Times New Roman";/* Second header characteristics */
+  font-size: 30px;
+  padding-bottom: 15px}
+h3{font-family: "Times New Roman";/* Third header characteristics */
+  font-size: 35px;
+  text-align: center
+  }
+h1,h2,h3,p /* Grouped characteristics */
+{display:block;
+  list-style-position: inside;
+  text-align: center;
+  }
+.About1{text-align:center; /* Class for about section */
+  list-style-position: inside;
+   }
+.header1{border: 1px solid; /* Class for header section */
+        padding: 10px;
+        box-shadow: 5px 10px;}
+a:hover {
+  text-decoration: underline;
+}
