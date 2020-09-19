@@ -1,3 +1,8 @@
+@media only screen and (max-width: 720px) {
+  /* mobile device */ {
+    width: 100%;
+  }
+}
 body{background-color: lightgray}/* Background color */
 h1{background-color:grey;/* Characteristics for first header */
   font-family: "Times New Roman";
@@ -17,12 +22,58 @@ h1,h2,h3,p /* Grouped characteristics */
   list-style-position: inside;
   text-align: center;
   }
-.About1{text-align:center; /* Class for about section */
-  list-style-position: inside;
+.About{text-align:center; /* Class for about section */
+  list-style-position: center;
    }
 .header1{border: 1px solid; /* Class for header section */
         padding: 10px;
         box-shadow: 5px 10px;}
 a:hover {
   text-decoration: underline;
+}
+
+
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: -10px;
+  margin-top: -10px;
+  
+
+
+  }
+  
+  .flex-item {
+  background: gray;
+  padding: 15px;
+  width: 475px;
+  height: 28px;
+  margin-top: 30px;
+  line-height: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  flex-basis: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+  
+  
+
+}
+
+.footer{
+  display:flex;
+  flex-grow: 3;
+  
+}
+
+.links{
+  background: gray;
+  padding: 15px;
+  width: 100px;
+  height: 20px;
+  flex-basis: auto;
+  
+  
 }
