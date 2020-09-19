@@ -3,10 +3,13 @@
 <head>
   <title>My Web Page</title>
   <!--Browser page -->
-  <link rel="stylesheet" href="webpage.css" type="text/css" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  
 </head>
 <body>
   <main>
+  
   <div class="header1">
     <!--First Header with my name -->
 
@@ -21,6 +24,7 @@
   <hr />
 
   <div class="header3">
+    <div class = "box1">
     <h3>Introduction 
       <!--Introduction Section --></h3>
   </div>
@@ -30,6 +34,7 @@
   </p>
 
   <div class="p1">
+    <div class = "box2">
     <p>I am a up and coming web developer with a passion for learning new technologies
     and keeping up to date with the latest trends and technological advancements. I consider myself a team player and 
     enjoy collaborating with others when it comes to projects and a work enviroment.</p>
@@ -37,43 +42,46 @@
   </div>
   <hr />
 
-  <div class="About1">
+  <div>
+    
     <h3>About Me</h3>
     <!--About me section here with list of characteristics-->
 
-    <ul>
+    <ul class="about">
       <li>I live in Orlando, Florida</li>
 
       <li>I am an outdoor enthusiast</li>
 
-      <li>I am a "foodie"; I enjoy finding new places to eat!</li>
+      <li> I am a "foodie"; I enjoy finding new places to eat!</li>
+
+      <li>I am a team player when it comes to coding and working in groups to achieve common goals. </li>
     </ul><!--Second ordered list-->
-
+    <hr>
     <p>I have experience in the following languages and technologies</p>
+     
+    <ul class="container">
+      <li class="flex-item">Javascript</li>
 
-    <ol>
-      <li>Javascript</li>
+      <li class="flex-item">HTML</li>
 
-      <li>HTML</li>
+      <li class="flex-item">CSS</li>
 
-      <li>CSS</li>
-
-      <li>Full Stack Developer
-        <hr />
+      <li class="flex-item">Full Stack Developer
       </li>
-    </ol>
+    </ul>
   </div>
 
-  <div class="footer1">
-    <!--Footer with contact info -->
+  
+  
+    
 
 
-    <h3>Contact</h3>
-
-    <p><a href="https://www.linkedin.com/in/matt-johnson-6b03189/">My Linked In
+    <h3> Contact </h3>
+    <div class="footer1">
+    <p><a class="links" href="https://www.linkedin.com/in/matt-johnson-6b03189/">My Linked In
     Profile</a></p> 
     <p>
-    <a href="https://github.com/Mjohn41823">My Github Profile</a>
+    <a class="links" href="https://github.com/Mjohn41823">My Github Profile</a>
     </p>
   </div>
   </main>
