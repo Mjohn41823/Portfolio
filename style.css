@@ -1,8 +1,6 @@
-
-
-  .menu{
+.menu{
     list-style-type: none;
-  color: gray;
+  color: rgb(78, 76, 76);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -141,3 +139,4 @@ form{margin: 0 auto;
  text-align: left
   
   }
+
